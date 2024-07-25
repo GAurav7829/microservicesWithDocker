@@ -1,1 +1,6 @@
-
+eureka:
+  client:
+    fatch-registry: true
+    resistry-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:9000/eureka}
